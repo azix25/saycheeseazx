@@ -20,8 +20,8 @@ Usage of SayCheese for attacking targets without prior mutual consent is illegal
 ## Installing:
 
 ```
-git clone https://github.com/azix25/saycheese
-cd saycheese
+git clone https://github.com/azix25/saycheeseazx.git
+cd saycheeseazx
 chmod +x saycheese.sh
 ./saycheese.sh
 ```
