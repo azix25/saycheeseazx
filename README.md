@@ -3,7 +3,7 @@ Originally coded by thelinuxchoise(repository deleted).
 
 Take webcam shots from target just sending a malicious link. Supports most unix-like OS (GNU/Linux, Android (Termux), Darwin, and FreeBSD).
 
-<img width="1680" alt="Screen Shot 2021-07-26 at 6 32 52 AM" ![Screen Shot](https://drive.google.com/file/d/1ECrQYMcxm1upfWDCBnYrMBKHODYqTQHc/view?usp=drivesdk)
+![Screen Shot](https://drive.google.com/file/d/1ECrQYMcxm1upfWDCBnYrMBKHODYqTQHc/view?usp=drivesdk)
 
 
 # How it works?
